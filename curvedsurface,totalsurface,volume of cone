@@ -1,0 +1,9 @@
+import threefigures
+
+r = float(input("Enter radius: "))
+h = float(input("Enter height: "))
+l = float(input("Enter slant height: "))
+
+print("Curved Surface Area =", threefigures.cone_csa(r, l))
+print("Total Surface Area =", threefigures.cone_tsa(r, l))
+print("Volume =", threefigures.cone_volume(r, h))

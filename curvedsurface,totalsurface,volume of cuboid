@@ -1,0 +1,9 @@
+import threefigures
+
+l = float(input("Enter length: "))
+b = float(input("Enter breadth: "))
+h = float(input("Enter height: "))
+
+print("Curved Surface Area =", threefigures.cuboid_csa(l, b, h))
+print("Total Surface Area =", threefigures.cuboid_tsa(l, b, h))
+print("Volume =", threefigures.cuboid_volume(l, b, h))

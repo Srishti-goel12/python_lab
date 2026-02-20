@@ -1,0 +1,8 @@
+import threefigures
+
+r = float(input("Enter radius: "))
+h = float(input("Enter height: "))
+
+print("Curved Surface Area =", threefigures.cylinder_csa(r, h))
+print("Total Surface Area =", threefigures.cylinder_tsa(r, h))
+print("Volume =", threefigures.cylinder_volume(r, h))
