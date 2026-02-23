@@ -18,3 +18,12 @@ if n > 0:
 # If user enters 0 or negative number
 else:
     print("Not possible")
+
+#output
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
