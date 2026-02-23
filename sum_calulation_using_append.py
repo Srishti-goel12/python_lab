@@ -15,3 +15,12 @@ print("Total Sum =", total)
 
 # sum(numbers) → list ke sabhi elements ka total nikalta hai
 
+#output
+Enter number: 10
+Enter number: 20
+Enter number: 5
+Enter number: 15
+Enter number: 10
+Numbers = [10, 20, 5, 15, 10]
+Total Sum = 60
+
